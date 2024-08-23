@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "alface",
+      "price": "15",
+      "id": "e28a"
+    },
+    {
+      "name": "teste",
+      "price": "12343",
+      "id": "cc79"
+    }
+  ]
+}

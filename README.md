@@ -1,27 +1,44 @@
-# PensarResponder10
+# Pensar e Responder 10
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+## Índice
 
-## Development server
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Funcionalidades do Projeto](#funcionalidades-do-projeto)
+- [Instalando o Projeto](#instalando-o-projeto)
+- [Rotas do Projeto](#rotas-do-projeto)
+- [Exemplo](#exemplo)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o Projeto
 
-## Code scaffolding
+Este projeto foi desenvolvido para entrega de parcial numero 10 da faculdade descomplica.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades do Projeto
 
-## Build
+- Listagem de itens
+- Criação de item
+- Edição de item
+- Deleção de item
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Instalando o Projeto
 
-## Running unit tests
+Instale todas as dependencias necessárias para rodar o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+Rode o Projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+npm start
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Rotas do projeto
+
+este projeto conta apenas com a rota principal para visualização de lista tendo
+seus dados passados por meio de services e relacionamentos entre componentes
+
+## Exemplo
+
+![Exemplo do Projeto](./src/assets/preview.png)

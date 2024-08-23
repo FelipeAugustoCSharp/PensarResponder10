@@ -1,0 +1,23 @@
+<app-form-data [itemFilho]="selectedItem"></app-form-data>
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of itemList$ | async">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>
+                <button (click)="onUpdate(item)">Edit</button>
+            </td>
+            <td>
+                <button (click)="onDelete((item.id).toString())">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

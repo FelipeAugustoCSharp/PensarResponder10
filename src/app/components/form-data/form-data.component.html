@@ -1,0 +1,18 @@
+<form (ngSubmit)="onSave()" [formGroup]="itemForm">
+    <div>
+      <label for="id">ID</label>
+      <input type="text" name="id" placeholder="id" formControlName="id">
+    </div>
+    <div>
+      <label for="name">Nome</label>
+      <input type="text" name="name" placeholder="name" formControlName="name">
+    </div>
+    <div>
+      <label for="price">Preço</label>
+      <input type="text" name="price" placeholder="price" formControlName="price">
+    </div>
+  
+    <button type="submit">{{ itemFilho?.id ? 'Salvar' : 'Criar' }}</button>
+    <button (click)="limpar()">Limpar</button>
+  </form>
+  
